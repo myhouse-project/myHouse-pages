@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Welcome to myHouse
 
-You can use the [editor on GitHub](https://github.com/myhouse-project/myhouse-project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Think of myHouse as a framework for collecting statistics and automating your house. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Configure the sensors you want to collect data from by leveraging the included plugins (e.g. to collect weather statistics, images from the Internet, your GPS position, data collected by Wirelessthings sensors, etc.).
 
-### Markdown
+What will be presented in the web interface is completely up to you. You can define your own modules, configure all the widgets and statistics that will be presented in the order you like the most. From the interface your actuators can be controlled as well.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can also easily create rules to be automatically alerted whenever a specific situation is taking place. Notifications are both presented within the web interface, sent by e-mail and posted on a Slack channel of your choice.
 
-```markdown
-Syntax highlighted code block
+A Slack bot allows also direct interaction in your natural language. It can reply to your questions, share with you statistics and charts or even control the actuators on your behalf.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/myhouse-project/myhouse-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Features
+- Collect data from a number of sensors by leveraging a simple to customize plugin-based architecture
+- Automatic calculation of hourly and daily minimum/maximum/average values for each sensor
+- Fully customizable web interface with mobile support to display the sensors' statistics, control actuators and present custom data
+- Speech recognition and text-to-speech capabilities for realtime voice interaction
+- Natural-language interactive Slack bot for remotely retrieving any statistic, send commands or just having fun
+- Alerting module generating e-mails or Slack notifications whenever a configured condition is met
+- Daily e-mail digests embedding all the widgets configured for the requeted module
